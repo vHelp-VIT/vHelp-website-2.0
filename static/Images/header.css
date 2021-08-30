@@ -1,0 +1,511 @@
+html {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+body {
+    overflow-x: hidden;
+    /* position: relative; */
+}
+html{
+    /* overflow-x: hidden; */
+}
+
+.questContainer{
+    margin-top: 35px;
+    z-index: 4;
+    position: relative;
+    border: 10px solid white;
+    /* background-color: rgb(252,96,96); */
+    /* background-image: radial-gradient(circle, rgba(252,96,96,1) 0%, rgba(255,0,18,1) 100%); */
+    border-radius: 0%;
+    height: auto;
+    box-shadow: 4px 2px 10px 2px grey;
+    padding-bottom: 20px;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: 1s ease;
+
+}
+#formContent:hover{
+    box-shadow:0 2px 4px 0 rgb(128, 80, 250,0.8);
+    
+}
+.replyAns{
+    color: blue;
+    transition-duration: 2s;
+}
+
+.replyAns:hover{
+    text-decoration: underline;
+}
+/* CARD CSS STARTS HERE */
+.card-title{
+    margin-top: -10px;
+}
+
+.card-body {
+    cursor: pointer;
+    transition: 2s ease;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.card-text{
+    opacity: 0;
+    border-radius: 0%;
+    display: none;
+    transition: 2s ease;
+}
+
+.campus-name{
+    font-size: 10px;
+    height: auto;
+}
+.card-campus{
+    border-left: 1px solid grey;
+    border-radius: 0.2em;
+}
+.card{
+    border-left: 4px solid rgb(128, 80, 250);
+    transition: 1s ease;
+    border-radius: 0;
+    border-bottom:0 ;
+    border-top: 0;
+    border-right: 0;
+}
+
+.card a{
+    color: black;
+    text-decoration: none;
+    z-index: 0;
+}
+/* CARD CSS ENDS HERE */
+
+
+
+
+
+
+
+#customHead {
+    background-color: rgba(128, 80, 250, 0.0);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 12;
+    color: white;
+    transition:0.5s;
+    /*    font-size:25px;*/
+}
+
+.list-group-item:hover {
+    /* box-shadow: 0px 2px 4px 0px black; */
+    cursor: pointer;
+    transform: translateX(10px);
+    border-left:2px solid rgb(128, 80, 250);
+}
+
+.list-group-item {
+    margin-bottom: 2px;
+    transition: 1s;
+}
+#postQuest, .questTags{
+    display: none;
+}
+#postQuest{
+    border: 2px solid rgb(128, 80, 250);
+}
+
+#postQuest:hover{
+    background-color:rgb(128, 80, 250);
+    color:white;
+}
+
+.submitQuest{
+    border: 2px solid rgb(128, 80, 250);
+    border-radius: 2rem;
+    background-color: white;
+    margin-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.Rate:hover {
+    box-shadow: 0px 0px 4px 0px black;
+}
+.Rate{
+    color: aliceblue;
+}
+
+body {
+    margin-top: 80px;
+}
+
+nav {
+    position: fixed;
+}
+.listItems{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.listItems:hover{
+    background-color:rgb(128, 80, 250);
+    color:#FFFFFF;
+}
+.list-group {
+    /* border=1px solid gray; */
+    /* border: 2px solid red; */
+    cursor: pointer;
+    /* transform: scale(0.98); */
+}
+.list-group-item a{
+    /* color: rgb(128, 80, 250);s */
+    text-decoration: none;
+}
+
+.links {
+    color: red;
+    font-size: 20px;
+}
+
+.question {
+    transition-duration: 0.5s;
+}
+
+.question:hover {
+    color: rgb(128, 80, 250);
+}
+
+.tagline {
+    font-size: 80px;
+    color: white;
+    font-family: 'Amiri', serif;
+    text-shadow: 3px 3px 3px #000000;
+}
+@media (max-width:900px){
+    #footContent{
+        margin-top: 60px;
+    }
+     
+.images-main:hover {
+    /* transform: scale(3.0); */
+    z-index: 12;
+    box-shadow: 0 1px 500px 0 white;
+}
+}
+@media (max-width: 640px){
+    .questContainer{
+
+        zoom: 0.8;
+    }
+    .workshop{
+        /* zoom:0.6; */
+        padding: 5%;
+        margin-bottom: 20px;
+    }
+    .workshop::after{
+        margin-bottom: 10px;
+    }
+.tagline {
+    font-size: 30px;
+
+    
+    }}
+    @media (max-width: 640px){
+        .video-main{
+            width: 100%;
+            height: auto;
+          }
+#typewriter_text{
+        font-size: 30px;
+        }
+        
+    }
+    .submitQuest:hover,.headgrp,.sums{
+        border: 2px solid rgb(128, 80, 250);
+        background-color:rgb(128, 80, 250);
+        color:white;
+    }
+     /* for desktops */
+ @media (min-width: 900px){
+
+    
+.workshop:hover {
+    transform:scale(1.2);
+}
+    .fee{
+        padding: 2%;
+        border-radius: 1em;
+    }
+}
+ @media (min-width: 640px){
+
+.images-main:active {
+    transform: scale(4.0);
+    z-index: 6;
+    box-shadow: 0 1px 500px 0 white;
+    position: relative;
+}
+.card:hover{
+    transform: translateX(10px);
+}
+.tagline {
+    font-size: 80px;
+}
+     
+    #typewriter_text{
+        font-size: 80px;
+    }
+}
+.brand {
+    font-size: 30px;
+}
+.navText{
+    color: white;
+    text-shadow: 1px 1px rgb(128, 80, 250);
+    font-family: 'itc',sans-serif;
+}
+.arrow-down {
+  width: 0; 
+  height: 0;
+    animation: growShrink;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    margin-left: 49%;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+/*    position: relative;*/
+    transition: 0.2s;
+    cursor:pointer;
+    transform: scale(2.0);
+}
+@keyframes growShrink{
+    from{
+        opacity: 0.2;
+    }
+    to{
+        opacity: 1;
+    }
+}
+#abstract1{
+    width:20%;z-index: 3;position: relative;
+    align-self: flex-end;
+    margin-top:-150px;
+    margin-left: 80%;
+}
+/* for mobile phones */
+@media (max-width: 900px){
+    #abstract1{
+        display: none;
+    }
+    
+    .fees{
+        zoom: 0.9;
+    }
+
+}
+
+.form-control{
+    border-radius: 0rem;
+    font-size: 18px;
+    font-weight: 700;
+    /* border: 0px; */
+    -webkit-box-shadow: 2px 2px 2px 2px rgb(255,255,255);
+    -moz-box-shadow: 2px 2px 2px 2px rgb(255,255,255);
+    box-shadow: 2px 2px 2px 2px rgb(255,255,255);
+    height: 200px;
+}
+.fees.tr, .fees.td, .feesData{
+    border: 0px solid grey;
+    text-align: center;
+}
+.bannerStyle {
+    background-color: rgba(128, 80, 250, 0.8);
+    /* animation-name: switch;
+    animation-duration: s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; */
+    background-image: url('campus-banner.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 2s;
+}
+.starImp{
+    color: red;
+    display: inline;
+}
+
+.page-footer{
+    background-color: rgb(24, 24, 24);
+    margin-top: 150px;
+    color: aliceblue;
+    /* background: url('https://www.servicefirstusa.com/wp-content/uploads/2018/07/footer.png'); */
+    background: url('footer-back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+}
+#askedQuest{
+    background-color: rgb(128, 80, 250);
+    color: white;
+}
+.hackclub{
+    /* background: url("http://hackclub.tech/assests/iconswp/Artboard1.webp"); */
+}
+.workshop{
+    /* padding-left: 10px; */
+    cursor: pointer;
+    transition:0.7s;
+}
+.workshop:hover {
+    box-shadow: 0 2px 4px black;
+}
+.navTitles{
+    text-shadow: 1px 0px rgb(128, 80, 250);
+    /* color: rgb(128, 80, 250); */
+    /* font-size: 16px; */
+}
+#disclaimer{
+    font-size: 10px;
+    margin-top: 100px;
+}
+.dropDowns{
+    float: right;
+    color: rgb(128, 80, 250);
+    font-size: 30px;
+}
+.dropDowns:hover{
+    transform: scale(1.5);
+}
+.blueTick{
+    color: rgb(128, 80, 250);
+}
+ 
+.images-main{
+    height: 100px;
+    margin-top: 10px;
+    box-shadow: 0 2px 2px 0 black;
+    border: 2px solid white;
+    transition: 1s;
+}
+  #navLogo{
+      width: 120px;
+  }
+  #logo{
+    width:120px;
+    animation: swivel;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    transition: ease;
+  }
+  @keyframes swivel{
+      0%{
+          transform: rotateY(0deg);
+        }
+        /* 50%{
+          transform: rotateY(180deg);
+        } */
+        100%{
+            transform: rotateY(360deg);
+        }
+  }
+  @font-face{
+      font-family: "itc";
+      src: 
+        local("/bauhausb.ttf"),
+        url('/bauhausb.ttf'),
+        format('truetype');
+    
+  }
+  #loadLogo{
+      width: 300px;
+      margin-top: 20%;
+  }
+  
+ /* overlay */
+ #overlay {
+    background: url('loading.gif');
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    transition: ease-out;
+  }
+  .side{
+      width: 0px;
+      transition: ease;
+  }
+  #overlayId{
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    /* padding: 1%; */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 9999; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    justify-content: center;
+    align-items: center;
+  }
+  .tables ,th ,td{
+    border: 2px solid grey;
+  }
+  .tables{
+      box-shadow: 0 4px 6px 0 grey;
+      padding: 4px;
+  }
+  
+  .video-main{
+    width: 100%;
+    height: 400px;
+  }
+  .mess{
+      border-color: rgb(201, 118, 24);
+    }
+  .room{
+      border-color: rgb(170, 86, 30);
+    }
+.cat{
+    border-color: rgb(238, 234, 19);
+    } 
+    .mess:hover,.headmess{
+        border: 2px solid rgb(201, 118, 24);
+        background-color:rgb(201, 118, 24);
+        color:white;
+    }.room:hover,.headroom{
+        border: 2px solid rgb(170, 86, 30);
+        background-color:rgb(170, 86, 30);
+        color:white;
+    }.cat:hover,.headcat{
+        border: 2px solid rgb(238, 234, 19);
+        background-color:rgb(238, 234, 19);
+        color:white;
+    }
+    .headFee{
+        background-color: rgb(25,24,32);
+        color: white;
+        border-radius: 2%;
+        border: none;
+    }

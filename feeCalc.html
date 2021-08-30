@@ -1,0 +1,575 @@
+<!-- <%- include('header') %> -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174263518-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-174263518-1');
+</script>
+
+    <!-- End Google Analytics -->
+    <meta name="Description"
+        content="VIT's only discussion forum for everone (including freshers and aspirants) to ask and answer questions!!" keywords="vit,chennai,vitians,vitian,vellore,bhopal,amaravati,vhelp,vit vhelp,iit,nit,colleges,indian colleges,india,south,manipal,srm,tamil nadu,ioe,institue,eminence,best,technology,btech,mba,tech,cse,ai,ml,mechanical,civil,ecm,electrical,electronics">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="This is a common open discussion forum for students of vit chennai, vit bhopal, vit vellore and vit amravati. Students can dissuss about academics, plavements, activities, clubs and teams in colleges. Students can feature there own content here like youtube channels, their projects that they want to share with their friends. Freshers can put their queries realted to admissions/ things required before joing college.">
+    <meta name="robots" content="index, academics, placements, activities, infrastructure" />
+    
+    
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>vHelp Freshers Blog</title>
+
+    <!-- css from public folder -->
+    <link href="/header.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="/croppedtitle.png" />
+</head>
+
+<body>
+    <nav id="customHead" class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+               
+                <span class="brand">
+                    <img id="navLogo"src="/vhelpbanner.png">
+                    </span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navList nav-item active">
+                        <a class="nav-link" href="/" style="font-family: 'Righteous', cursive; color: white; "><i
+                                class="fa fa-home"></i><span class="navTitles"> Home</span> <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="navList nav-item active">
+                        <a class="nav-link" href="/feeCalc.html" style="font-family: 'Righteous', cursive; color: white;"><i
+                                class="fa fa-calculator"></i> <span class="navTitles"> Fee Calculator</span> <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="navList nav-item active">
+                        <a class="nav-link" href="/books.html" style="font-family: 'Righteous', cursive; color: white;"><i
+                                class="fa fa-book"></i> <span class="navTitles"> Books</span> <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="navList nav-item active">
+                        <a class="nav-link" href="/gallery.html" style="font-family: 'Righteous', cursive; color: white;"><i
+                                class="fa fa-picture-o"></i> <span class="navTitles"> Gallery</span> <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="navList nav-item active">
+                        <a class="nav-link" href="/recommendation.html" style="font-family: 'Righteous', cursive; color: white;"><i class="fa fa-laptop" aria-hidden="true"></i><span class="navTitles">Recommended Laptops</span> <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </nav>
+    
+
+
+    <style>
+        #ssb-container {
+            position: fixed;
+            top: 20%;
+            z-index: 8;
+            right: 0;
+        }
+    </style>
+
+    <div class="side" id="ssb-container">
+        <li class="list-group-item  d-flex justify-content-between align-items-center">
+            <a href="/explore/academics"><i class="fa fa-book" aria-hidden="true"></i></a>
+            <!-- <span class="badge badge-primary badge-pill">14</span> -->
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="/explore/placement"><i class="fa fa-coffee" aria-hidden="true"></i></a>
+            <!-- <span class="badge badge-primary badge-pill">2</span> -->
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="/explore/infrastructure"><i class="fa fa-building" aria-hidden="true"></i></a>
+            <!-- <span class="badge badge-primary badge-pill">1</span> -->
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="/explore/clubs_teams"><i class="fa fa-cube" aria-hidden="true"></i></a>
+            <!-- <span class="badge badge-primary badge-pill">1</span> -->
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="/explore/activities"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+            <!-- <span class="badge badge-primary badge-pill">1</span> -->
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="/explore/general" <i class="fa fa-folder" aria-hidden="true"></i></a>
+            <!-- <span class="badge badge-primary badge-pill">1</span> -->
+        </li>
+        <li style="color: blue;"class="hideSidebar list-group-item d-flex justify-content-between align-items-center">
+            <a><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            <!-- <span class="badge badge-primary badge-pill">1</span> -->
+        </li>
+        <li id="darkMode" style="background-color: rgb(25,24,32);" class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="#" <i class="fa fa-moon-o" aria-hidden="true"></i></a>
+            <!-- <span class="badge badge-primary badge-pill">1</span> -->
+        </li>
+    </ul>
+    </div>
+
+<style>
+    #customHead {
+        background-color: rgba(128, 80, 250, 0.8);
+        box-shadow: 0 2px 4px 0 black;
+    }
+</style>
+<script>
+     window.setInterval(function(){
+        if(dark == 0){
+        $('#customHead').css("background-color","rgba(128, 80, 250, 0.8)");
+        $('#customHead').css("box-shadow","0 2px 4px 0 black");
+    }
+        else if(dark == 1){
+        $('#customHead').css("background-color","rgb(25, 24, 32)");
+        }
+    },10);
+</script>
+
+<div class="container">
+    <div class="questContainer row">
+        <div class="col-sm-12" style="margin-top: 10px;">
+            
+        
+        
+        <div class="col-sm-12" style="margin-top: 10px;">
+            <div class="card w-100">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Fees calculator (Chennai)</b><i style="color: blue;" class="fa fa-inr"
+                            aria-hidden="true"></i><i class="dropDowns fa fa-bars" aria-hidden="true"></i></h5>
+                    <p style="margin-top:0px; margin-bottom: 0px;"><b>Posted by:</b> vHelp </p>
+                    <div style="box-shadow: 0 2px 4px solid;" class="image-main card-text"><br><br>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <table class="fees">
+                                    <tr>
+                                        <th class="feesData">
+                                            <div class="headgrp grp submitQuest">Group<p class="starImp">*</p>
+                                            </div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headcat cat submitQuest">Category<p class="starImp">*</p>
+                                            </div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headmess mess submitQuest">Mess</div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headroom room submitQuest">Room</div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="feesData">
+                                            <div data-type="grpA" isOn="0" class="fee che grp submitQuest">Group A</div>
+                                            <div data-type="grpB" isOn="0" class="fee che grp submitQuest">Group B</div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="cat1" isOn="0" class="fee che cat submitQuest">1</div>
+                                            <div data-type="cat2" isOn="0" class="fee che cat submitQuest">2</div>
+                                            <div data-type="cat3" isOn="0" class="fee che cat submitQuest">3</div>
+                                            <div data-type="cat4" isOn="0" class="fee che cat submitQuest">4</div>
+                                            <div data-type="cat5" isOn="0" class="fee che cat submitQuest">5</div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="veg" isOn="0" class="fee che mess submitQuest">Veg</div>
+                                            <div data-type="nonveg" isOn="0" class="fee che mess submitQuest">Non Veg
+                                            </div>
+                                            <div data-type="special" isOn="0" class="fee che mess submitQuest">Special
+                                            </div>
+                                            <div data-type="foodpark" isOn="0" class="fee che mess submitQuest">Food
+                                                Park</div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="two" isOn="0" class="fee che room submitQuest">2 Bed AC
+                                            </div>
+                                            <div data-type="three" isOn="0" class="fee che room submitQuest">3 Bed AC
+                                            </div>
+                                            <div data-type="four" isOn="0" class="fee che room submitQuest">4 Bed AC
+                                            </div>
+                                            <div data-type="twonac" isOn="0" class="fee che room submitQuest">2 Bed
+                                                non-AC</div>
+                                            <div data-type="threenac" isOn="0" class="fee che room submitQuest">3 Bed
+                                                non-AC</div>
+                                            <div data-type="fournac" isOn="0" class="fee che room submitQuest">4 Bed
+                                                non-AC</div>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4" class="feesData">
+                                            <center>
+                                                <div id="totalFee" class="sums fee submitQuest">TOTAL</div>
+                                            </center>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12" style="margin-top: 10px;">
+            <div class="card w-100">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Fees calculator (Vellore) </b><i style="color: blue;" class="fa fa-inr"
+                            aria-hidden="true"></i><i class="dropDowns fa fa-bars" aria-hidden="true"></i></h5>
+                    <p style="margin-top:0px; margin-bottom: 0px;"><b>Posted by:</b> vHelp </p>
+                    <div style="box-shadow: 0 2px 4px solid;" class="image-main card-text"><br><br>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <table class="fees">
+                                    <tr>
+                                        <th class="feesData">
+                                            <div class="headgrp grp submitQuest">Group<p class="starImp">*</p>
+                                            </div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headcat cat submitQuest">Category<p class="starImp">*</p>
+                                            </div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headmess mess submitQuest">Mess</div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headroom room submitQuest">Room</div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="feesData">
+                                            <div data-type="vgrpA" isOn="0" class="fee vel grp submitQuest">Group A
+                                            </div>
+                                            <div data-type="vgrpB" isOn="0" class="fee vel grp submitQuest">Group B
+                                            </div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="vcat1" isOn="0" class="fee vel cat submitQuest">1</div>
+                                            <div data-type="vcat2" isOn="0" class="fee vel cat submitQuest">2</div>
+                                            <div data-type="vcat3" isOn="0" class="fee vel cat submitQuest">3</div>
+                                            <div data-type="vcat4" isOn="0" class="fee vel cat submitQuest">4</div>
+                                            <div data-type="vcat5" isOn="0" class="fee vel cat submitQuest">5</div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="vveg" isOn="0" class="fee vel mess submitQuest">Veg</div>
+                                            <div data-type="vnonveg" isOn="0" class="fee vel mess submitQuest">Non Veg
+                                            </div>
+                                            <div data-type="vspecial" isOn="0" class="fee vel mess submitQuest">Special
+                                            </div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="vone" isOn="0" class="fee vel room submitQuest">1 Bed AC
+                                            </div>
+                                            <div data-type="vtwo" isOn="0" class="fee vel room submitQuest">2 Bed AC
+                                            </div>
+                                            <div data-type="vthree" isOn="0" class="fee vel room submitQuest">3 Bed AC
+                                            </div>
+                                            <div data-type="vfour" isOn="0" class="fee vel room submitQuest">4 Bed AC
+                                            </div>
+                                            <div data-type="vsix" isOn="0" class="fee vel room submitQuest">6 Bed AC
+                                            </div>
+
+                                            <div data-type="vonenac" isOn="0" class="fee vel room submitQuest">1 Bed
+                                                non-AC</div>
+                                            <div data-type="vtwonac" isOn="0" class="fee vel room submitQuest">2 Bed
+                                                non-AC</div>
+                                            <div data-type="vthreenac" isOn="0" class="fee vel room submitQuest">3 Bed
+                                                non-AC</div>
+                                            <div data-type="vfournac" isOn="0" class="fee vel room submitQuest">4 Bed
+                                                non-AC</div>
+                                            <div data-type="vsixnac" isOn="0" class="fee vel room submitQuest">6 Bed
+                                                non-AC</div>
+
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4" class="feesData">
+                                            <center>
+                                                <div id="vtotalFee" class="sums vel fee submitQuest">TOTAL</div>
+                                            </center>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12" style="margin-top: 10px;">
+            <div class="card w-100">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Fees calculator (Bhopal) </b><i style="color: blue;" class="fa fa-inr"
+                            aria-hidden="true"></i><i class="dropDowns fa fa-bars" aria-hidden="true"></i></h5>
+                    <p style="margin-top:0px; margin-bottom: 0px;"><b>Posted by:</b> vHelp </p>
+                    <div style="box-shadow: 0 2px 4px solid;" class="image-main card-text"><br><br>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <table class="fees">
+                                    <tr>
+                                        <th class="feesData">
+                                            <div class="headgrp grp submitQuest">Group<p class="starImp">*</p>
+                                            </div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headcat cat submitQuest">Category<p class="starImp">*</p>
+                                            </div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headmess mess submitQuest">Mess</div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headroom room submitQuest">Room</div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="feesData">
+                                            <div data-type="bgrpA" isOn="0" class="fee bho grp submitQuest">Group A
+                                            </div>
+                                            <div data-type="bgrpB" isOn="0" class="fee bho grp submitQuest">Group B
+                                            </div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="bcat1" isOn="0" class="fee bho cat submitQuest">1</div>
+                                            <div data-type="bcat2" isOn="0" class="fee bho cat submitQuest">2</div>
+                                            <div data-type="bcat3" isOn="0" class="fee bho cat submitQuest">3</div>
+                                            <div data-type="bcat4" isOn="0" class="fee bho cat submitQuest">4</div>
+                                            <div data-type="bcat5" isOn="0" class="fee bho cat submitQuest">5</div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="bveg" isOn="0" class="fee bho mess submitQuest">Veg</div>
+                                            <div data-type="bnonveg" isOn="0" class="fee bho mess submitQuest">Non Veg
+                                            </div>
+                                            <div data-type="bspecial" isOn="0" class="fee bho mess submitQuest">Special
+                                            </div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="btwo" isOn="0" class="fee bho room submitQuest">2 Bed AC
+                                            </div>
+                                            <div data-type="bthree" isOn="0" class="fee bho room submitQuest">3 Bed AC
+                                            </div>
+                                            <div data-type="bfour" isOn="0" class="fee bho room submitQuest">4 Bed AC
+                                            </div>
+                                            <div data-type="bsix" isOn="0" class="fee bho room submitQuest">6 Bed AC
+                                            </div>
+                                            <div data-type="btwonac" isOn="0" class="fee bho room submitQuest">2 Bed
+                                                non-AC</div>
+                                            <div data-type="bthreenac" isOn="0" class="fee bho room submitQuest">3 Bed
+                                                non-AC</div>
+                                            <div data-type="bfournac" isOn="0" class="fee bho room submitQuest">4 Bed
+                                                non-AC</div>
+                                            <div data-type="bsixnac" isOn="0" class="fee bho room submitQuest">6 Bed
+                                                non-AC</div>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4" class="feesData">
+                                            <center>
+                                                <div id="btotalFee" class="sums fee che submitQuest">TOTAL</div>
+                                            </center>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12" style="margin-top: 10px;">
+            <div class="card w-100">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Fees calculator (Amravati) </b><i style="color: blue;" class="fa fa-inr"
+                            aria-hidden="true"></i><i class="dropDowns fa fa-bars" aria-hidden="true"></i></h5>
+                    <p style="margin-top:0px; margin-bottom: 0px;"><b>Posted by:</b> vHelp </p>
+                    <div style="box-shadow: 0 2px 4px solid;" class="image-main card-text"><br><br>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <table class="fees">
+                                    <tr>
+                                        <th class="feesData">
+                                            <div class="headgrp grp submitQuest">Group<p class="starImp">*</p>
+                                            </div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headcat cat submitQuest">Category<p class="starImp">*</p>
+                                            </div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headmess mess submitQuest">Mess</div>
+                                        </th>
+                                        <th class="feesData">
+                                            <div class="headroom room submitQuest">Room</div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="feesData">
+                                            <div data-type="agrpA" isOn="0" class="fee amr grp submitQuest">Group A
+                                            </div>
+                                            <div data-type="agrpB" isOn="0" class="fee amr grp submitQuest">Group B
+                                            </div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="acat1" isOn="0" class="fee amr cat submitQuest">1</div>
+                                            <div data-type="acat2" isOn="0" class="fee amr cat submitQuest">2</div>
+                                            <div data-type="acat3" isOn="0" class="fee amr cat submitQuest">3</div>
+                                            <div data-type="acat4" isOn="0" class="fee amr cat submitQuest">4</div>
+                                            <div data-type="acat5" isOn="0" class="fee amr cat submitQuest">5</div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="aveg" isOn="0" class="fee amr mess submitQuest">Veg</div>
+                                            <div data-type="anonveg" isOn="0" class="fee amr mess submitQuest">Non Veg
+                                            </div>
+                                            <div data-type="aspecial" isOn="0" class="fee amr mess submitQuest">Special
+                                            </div>
+                                        </td>
+                                        <td class="feesData">
+                                            <div data-type="atwo" isOn="0" class="fee amr room submitQuest">2 Bed AC
+                                            </div>
+                                            <div data-type="afour" isOn="0" class="fee amr room submitQuest">4 Bed AC
+                                            </div>
+                                            <div data-type="atwonac" isOn="0" class="fee amr room submitQuest">2 Bed
+                                                non-AC</div>
+                                            <div data-type="afournac" isOn="0" class="fee amr room submitQuest">4 Bed
+                                                non-AC</div>
+                                            <div data-type="a2baptac" isOn="0" class="fee amr room submitQuest">2B AC
+                                                Apt. </div>
+                                            <div data-type="a4baptac" isOn="0" class="fee amr room submitQuest">4B AC
+                                                Apt.</div>
+                                            <div data-type="a2baptnac" isOn="0" class="fee amr room submitQuest">2B
+                                                non-AC Apt.</div>
+                                            <div data-type="a4baptnac" isOn="0" class="fee amr room submitQuest">4B
+                                                non-AC Apt.</div>
+                                    </tr>
+
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4" class="feesData">
+                                            <center>
+                                                <div id="atotalFee" class="sums fee che submitQuest">TOTAL</div>
+                                            </center>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <%- include('footer') %> -->
+
+<!-- Footer -->
+
+<div class="container">
+    <div id="disclaimer"class="row">
+        <div class="col-12 offset-md-3 col-sm-6">
+            <div class="text-center">
+                <b>⚠️Disclaimer:</b>
+            </div>
+        </div>
+        <div class="col-12 offset-md-3 col-sm-6">
+            <div class="text-center">
+                This website is not related to any of the official VIT website or management in any context.<br>
+                This is an open forum and
+                the information available on this website is contributed by community.
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<footer class="page-footer font-small unique-color-dark pt-4">
+    <div>
+        <img id="abstract1" src="/abstract.png">
+    </div>
+    <div id="footContent" class="container">
+
+        <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">
+                <h6 class="mb-1">Made with ❤️ by Vitians for Vitians</h5><br>
+                    <a class="social" href="https://www.instagram.com/vhelp55/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li><br>
+            <li class="list-inline-item">
+                <a href="#!" class="btn btn-outline-white btn-rounded">
+                    <p class="Rate">Follow Us on Instagram</p>
+                </a>
+            </li><br>
+            <li class="list-inline-item">
+                © 2020 Copyright:
+                <a href="#"> vHelp.com</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-copyright text-center py-3">
+    </div>
+</footer>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.19.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.19.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+<!-- static javascript -->
+<script src="/header.js"></script>
+
+<!-- type writer effect -->
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="/typed.js"></script>
+<!-- Google Analytics -->
+<script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
+</html>
